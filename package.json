@@ -5,9 +5,9 @@
   "description": "Sample automation suite for VoucherCodes",
   "scripts": {
     "cypress-open": "cypress open",
-    "cypress-run": "cypress run --browser chrome --headed && npm run generate-report",
-    "cypress-pass": "cypress run --browser chrome --headed -e tags=@restaurants && npm run generate-report",
-    "cypress-fail": "cypress run --browser chrome --headed -e tags=@topOffers && npm run generate-report",
+    "cypress-run": "cypress run --browser chrome --headed ; npm run generate-report",
+    "cypress-pass": "cypress run --browser chrome --headed -e tags=@restaurants ; npm run generate-report",
+    "cypress-fail": "cypress run --browser chrome --headed -e tags=@topOffers ; npm run generate-report",
     "generate-report": "node ./report.js"
   },
   "cypress-cucumber-preprocessor": {
