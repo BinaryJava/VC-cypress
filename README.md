@@ -5,7 +5,7 @@ Sample Cypress automation suite for VoucherCodes
 ## Prerequisities
 
 1. Run `npm install` to install all required packages
-1. Install cucumber json formatter somewhere that is accessible on your path - [GitHub](https://github.com/cucumber/json-formatter)
+1. Install cucumber json formatter somewhere that is accessible on your path - [GitHub](https://github.com/cucumber/json-formatter) - only needed for HTML report generation
 
 ## Please note
 
